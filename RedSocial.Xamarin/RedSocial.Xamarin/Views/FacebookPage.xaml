@@ -20,7 +20,7 @@
                             <Label Text="{Binding MeDigusta}" />
                             <Label Text="DisLikes" />
                             <Label Text="{Binding VecesCompartido}" />
-                            <Label Text="Sharedd" />
+                            <Label Text="Shared" />
                         </StackLayout>
                         <Grid>
                             <Button Text="Like" Grid.Column="0"/>

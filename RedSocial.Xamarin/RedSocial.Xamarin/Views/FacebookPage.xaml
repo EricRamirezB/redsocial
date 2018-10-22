@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RedSocial.Xamarin.Views.FacebookPage">
+
+    <ListView x:Name="listPublicaciones" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Usuario}" />
+                            <Label Text="{Binding FechaPublicacion}" />
+                        </StackLayout>
+                        <Label Text="{Binding Descripcion}"/>
+                        <Image Source="Paisaje.jpg" Aspect="AspectFill"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding MeGusta}" />
+                            <Label Text="Likes" />
+                            <Label Text="{Binding MeDigusta}" />
+                            <Label Text="DisLikes" />
+                            <Label Text="{Binding VecesCompartido}" />
+                            <Label Text="Shared" />
+                        </StackLayout>
+                        <Grid>
+                            <Button Text="Like" Grid.Column="0"/>
+                            <Button Text="Comment" Grid.Column="1"/>
+                            <Button Text="Shared" Grid.Column="2"/>
+                        </Grid>
+                    </StackLayout>
+                </ViewCell>      
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
+</ContentPage>

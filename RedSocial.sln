@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Api", "RedSocial.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Dominio", "RedSocial.Dominio\RedSocial.Dominio.csproj", "{87C62558-A010-4557-99B4-147FED5D10BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Xamarin.Android", "RedSocial.Xamarin\RedSocial.Xamarin.Android\RedSocial.Xamarin.Android.csproj", "{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Xamarin", "RedSocial.Xamarin\RedSocial.Xamarin\RedSocial.Xamarin.csproj", "{A4F588E8-F872-4965-95EB-5DD0F58F12E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,16 @@ Global
 		{87C62558-A010-4557-99B4-147FED5D10BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87C62558-A010-4557-99B4-147FED5D10BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87C62558-A010-4557-99B4-147FED5D10BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDAB47B-E6B7-4CE2-985F-FC0A5145ABBC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A4F588E8-F872-4965-95EB-5DD0F58F12E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F588E8-F872-4965-95EB-5DD0F58F12E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F588E8-F872-4965-95EB-5DD0F58F12E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F588E8-F872-4965-95EB-5DD0F58F12E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
